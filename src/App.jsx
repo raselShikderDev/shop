@@ -1,13 +1,20 @@
 
 import './App.css'
+import BannerWinter from './component/Bannerwinter/BannerWinter'
+import Hero from './component/Hero/Hero'
+import Navbar from './component/NavBar/Navbar'
+import Prodacts from './component/Prodacts/Prodacts'
+import TopProdact from './component/TopProdact/TopProdact'
 
 function App() {
 
   return (
     <>
-     <h1 className="text-3xl bg-red-600 font-bold underline">
-      Hello world!
-    </h1>
+      <Navbar />
+      <Hero />
+      <Prodacts />
+      <TopProdact />
+      <BannerWinter/>
     </>
   )
 }
