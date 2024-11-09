@@ -28,7 +28,7 @@ const Prodacts = () => {
         </p>
         {/* prodact card section */}
         <div>
-          <div className="grid grid-cols-1 gap-7 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+          <div className="grid grid-cols-1 gap-0 sm:gap-7 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center">
             {productsData.map((item) => {
               const { id, img, title, rating, color, aosDelay } = item;
               return (
@@ -44,7 +44,7 @@ const Prodacts = () => {
                     alt=""
                     className="rounded-xl object-cover w-[150px] h-[220px]"
                   />
-                  <div>
+                  <div className="">
                     <h3 className="font-semibold text-xl">{title}</h3>
                     <p className="text-slate-500">{color}</p>
                     <p className=" flex items-center gap-2">
