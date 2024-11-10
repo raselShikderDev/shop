@@ -28,7 +28,7 @@ const Hero = () => {
                       data-aos="zoom-out"
                       data-aos-duration="500"
                       data-aos-once="true"
-                      className=" text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight"
+                      className=" text-4xl sm:text-4xl lg:text-7xl font-bold leading-tight"
                     >
                       {title}
                     </h1>
@@ -54,10 +54,10 @@ const Hero = () => {
                     </div>
                   </div>
                   {/* Image Section of Hero */}
-                  <div className="order-2 sm:order-1">
+                  <div className="">
                     <div className=" z-10 relative">
                       <img
-                        className="w-[350px] sm:w-[450px] h-[350px] sm:h-[450px] object-contain mx-auto sm:scale-125"
+                        className="w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] object-contain mx-auto sm:scale-125"
                         src={img}
                         alt=""
                       />

@@ -21,14 +21,14 @@ const Footer = () => {
 
   return (
     <section style={footerBg} className="py-20 text-white">
-      <div data-aos="zoom-in" data-aos-duration="500" className="container grid md:grid-cols-3 pb-40 pt-5">
+      <div data-aos="zoom-in" data-aos-duration="500" className="container grid gap-y-5 sm:gap-y-0 md:grid-cols-3 pb-10 sm:pb-20">
         {/* Company Details */}
         <div className="space-y-4">
           <h1 className="flex gap-2 items-center">
             <img src={logoFooter} alt="" className="max-w-[50px]" />
             <p className="text-3xl font-bold">ShopHub</p>
           </h1>
-          <p className="text-[19px]">
+          <p className="sm:text-[19px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
             beatae ea recusandae blanditiis veritatis.
           </p>

@@ -5,7 +5,7 @@ import { GiFoodTruck } from "react-icons/gi";
 import BannerImg from "../../assets/women/women2.jpg";
 const BannerWinter = () => {
   return (
-    <section className="min-h-[550px] py-12 flex justify-center items-center">
+    <section className="min-h-[550px] py-12 flex justify-center items-center dark:bg-gray-900 dark:text-white">
       <div className="container">
         <div className="grid grid-cols-1 gap-6 items-center sm:grid-cols-2">
           {/* Winter Collection image section */}

@@ -11,7 +11,7 @@ const BannerImg = {
   };
 
   return (
-    <section className="my-14">
+    <section className="py-14 dark:bg-gray-900 dark:text-white">
       <div
         data-aos="zoom-in"
         style={BannerImg}
