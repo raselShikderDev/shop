@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="space-y-4">
           <h1 className="flex gap-2 items-center">
             <img src={logoFooter} alt="" className="max-w-[50px]" />
-            <p className="text-3xl font-bold">ShopHub</p>
+            <p className="text-3xl font-bold">ShopyHub</p>
           </h1>
           <p className="sm:text-[19px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in

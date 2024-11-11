@@ -15,7 +15,7 @@ const Navbar = () => {
             <div>
               <div className="flex font-semibold text-2xl sm:text-3xl gap-2 justify-between items-center">
                 <img width="45px" src={logo} alt="Logo" className="w-[50px" />
-                <p>ShopHub</p>
+                <p>ShopyHub</p>
               </div>
             </div>
             {/* Search Bar and  cart  sectiion */}
